@@ -103,7 +103,9 @@ nav ul li a{
   margin-bottom: 1rem;
 }
 #shape{
-  font-family: Miama;
+  font-family: Edwardian Script ITC;
+  font-weight: 300;
+  font-size: 7rem;
 }
 
 
@@ -134,7 +136,13 @@ nav ul li a{
   width: 190px;
   position: relative;
   bottom: 120px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
  
+}
+.glass{
+  backdrop-filter: blur(10px);
 }
 
 
@@ -150,6 +158,9 @@ nav ul li a{
   position: relative;
   bottom: 413px;
     left: 230px;
+    padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
 }
 
 /* banner section style end here */
@@ -262,33 +273,66 @@ font-size: 1.1rem;
  
   grid-column: span 3 / span 3;
   height: 220px;
- 
-  background-image: url(image/exercise1.jpg);
+ position: relative;
+  background: url(image/exercise1.jpg);
   background-size: cover;
   background-position: center ;
+  
 }
 
-.training-image-1 h3{
-  margin-top: 180px;
+.color-on-img-1{
+  background: linear-gradient(#81FEE8, #81FEE8);
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  
+
+}
+
+.color-on-img-1 h3{
+  margin-top: 150px;
   margin-left: 20px;
+color: black;
+
+
+
 }
-
-
 
 .training-image-2{
  
   grid-column: span 6 / span 6;
   height: 220px;
- 
+ position: relative;
   background-image: url(image/exercise2.png);
   background-size: cover;
   background-position: center ;
 }
+.color-on-img-2{
+  background: linear-gradient(#FBACAB,#FBACAB);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+ 
 
-.training-image-2 h3{
+}
+
+
+.color-on-img-2 h3{
   margin-top: 20px;
   margin-left: 20px;
+color:white;
+
+
+
 }
+
+
+
+
 
 
 .training-image-3{
@@ -297,13 +341,32 @@ font-size: 1.1rem;
   height: 220px;
   background-image: url(image/exercise3.png);
   background-size: cover;
+  position: relative;
   background-position: center ;
 }
 
-.training-image-3 h4{
+.color-on-img-3{
+  background: linear-gradient(#373939,#373939);
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+ 
+
+}
+
+
+.color-on-img-3 h4{
   margin-top: 150px;
   margin-left: 20px;
+color:white;
+
+
+
 }
+
+
 
 
 .training-image-4{
@@ -312,13 +375,32 @@ font-size: 1.1rem;
   height: 220px;
   background-image: url(image/exercise4.png);
   background-size: cover;
+  position: relative;
   background-position: center ;
 }
 
-.training-image-4 h4{
+.color-on-img-4{
+  background: linear-gradient(#342B24,  #342B24);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+ 
+
+}
+
+
+.color-on-img-4 h4{
   margin-top: 30px;
   margin-left: 270px;
+color:white;
+
+
+
 }
+
+
 
 .training-image-5{
  
@@ -327,12 +409,32 @@ font-size: 1.1rem;
   background-image: url(image/exercise5.jpg);
   background-size: cover;
   background-position: center ;
+  position: relative;
 }
 
-.training-image-5 h4{
+.color-on-img-5{
+  background: linear-gradient(#3bc853,#3bc853);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  position: absolute;
+ 
+
+}
+
+
+.color-on-img-5 h4{
   margin-top: 150px;
   margin-left: 20px;
+color:white;
+
+
+
 }
+
+
 
 
 .training-image-6{
@@ -342,17 +444,113 @@ font-size: 1.1rem;
   background-image: url(image/exercise6.jpg);
   background-size: cover;
   background-position: center ;
+  position: relative;
 }
 
-.training-image-6 h4{
+
+.color-on-img-6{
+  background: linear-gradient(#A7BCF3,#A7BCF3);
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  position: absolute;
+ 
+
+}
+
+
+.color-on-img-6 h4{
   margin-top: 150px;
   margin-left: 20px;
+color:white;
+
+
+
 }
+
 
 
 
 
 /* Trainings and Excercises section style end here */
+
+/* our equipment section style start here */
+
+.equipment-section-container{
+  width: 90%;
+  margin: 50px auto;
+}
+
+.equipment-section-heading{
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.equipment-section-heading h1{
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.equipment-cards-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  gap: 2rem;
+  margin: 20px 20px;
+  
+}
+.equipment-card{
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid red;
+ margin-left: 20px;
+  
+  
+}
+.equipment-card img{
+  width: 100%;
+  height: 250px;
+  border-radius: 20px 20px 0px 0px;
+}
+.equipment-card h1{
+  margin: 15px 0px;
+}
+
+.sell{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+  align-items: center;
+}
+
+.sell h2{
+  color: rgba(230, 83, 60, 1);
+}
+
+.order-btn{
+  background: rgba(230, 83, 60, 1);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.order-btn:hover{
+  transform:scale(1.2);
+
+}
+
+
+
+
+
+/* our equipment section style end here */
 
 /* BMI Section style start here */
 .bmi-section-heading{
@@ -607,3 +805,6 @@ hr{
   color:rgba(255, 255, 255, 0.5);;
 }
 /* footer section style end here */
+
+
+
