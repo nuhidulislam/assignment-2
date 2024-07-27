@@ -1,0 +1,609 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: inter;
+}
+/* Shared style start here */
+
+/* font-family link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.btn-primary{
+  background: #E6533C;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 40px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.text-primary{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Shared style end here */
+
+
+body{
+  background: black;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  margin: 0px auto;
+  margin-top: 3rem;
+  align-items: center;
+
+}
+nav h1{
+  color: rgba(230, 83, 60, 1);
+  font-size: 3rem;
+}
+nav ul{
+  display: flex;
+  border: 1px solid white;
+  padding: 10px 4px;
+  border-radius: 40px;
+}
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none; 
+  margin-right: 3rem;
+  font-size: 1.1rem;
+}
+
+#about{
+  margin-right: 15px;
+}
+
+
+
+#home{
+  background:rgba(230, 83, 60, 1);
+  padding: 9px 25px;
+  border-radius: 40px;
+}
+
+/* banner section style start here */
+.banner-container{
+  display: flex;
+ 
+  width: 90%;
+  margin: 20px auto;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+.banner-text-section{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.text{
+  width: 70%;
+ 
+
+}
+.text h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#shape{
+  font-family: Miama;
+}
+
+
+.download-btn{
+  
+  color: white;
+  padding: 10px 15px;
+  border-radius: 40px;
+ border: 2px solid white;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #000;
+  margin-bottom: 1rem;
+}
+.banner-img-section{
+  width: 50%;
+ 
+  
+}
+.banner-img-section img{
+  margin-left: 3.5rem;
+  height: 480px;
+}
+.video-tutorial{
+  display: flex;
+  
+  gap: 10px;
+  width: 190px;
+  position: relative;
+  bottom: 120px;
+ 
+}
+
+
+.color{
+  background: rgba(230, 83, 60, 1);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.workout-videos{
+ 
+  width: 200px;
+  position: relative;
+  bottom: 413px;
+    left: 230px;
+}
+
+/* banner section style end here */
+
+/* change habit section style start here */
+.change-habit-section-heading{
+  
+  text-align: center;
+  margin-top: 6rem;
+ }
+ .change-habit-section-heading h1{
+   font-size: 3rem;
+   margin-bottom: 1.1rem;
+ }
+ .change-habit-cards{
+   width: 90%;
+   margin: 0px auto;
+   display: flex;
+   gap: 1.5rem;
+   margin-top: 35px;
+   
+ }
+ 
+ .change-habit-card{ 
+   width: 250px;
+   text-align: center;
+ }
+ .change-habit-card h2{
+ margin-bottom: 15px;
+ }
+ .change-habit-card img{
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ margin-bottom: 15px;
+ }
+ /* change habit section style end here */
+
+/* Run an Extra Mile Easily section style start here  */
+.run-an-extra-mile-container{
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.run-an-extra-mile-text{
+  
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.run-an-extra-mile-text p{
+margin: 15px 0px;
+font-size: 1.1rem;
+
+}
+.run-an-extra-mile-text h1{
+  font-size: 3rem;
+  font-weight: bold;
+ 
+}
+
+.run-an-extra-mile-image{
+  
+  width: 50%;
+  height: 350px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.run-an-extra-mile-image img{
+  height: 280px;
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 7.5rem;
+}
+
+
+/* Run an Extra Mile Easily section style end here  */
+
+
+/* Trainings and Excercises section style start here */
+.training-section-container{
+  width: 90%;
+  margin: 80px auto;
+}
+
+.training-section-heading{
+ 
+  width: 60%;
+}
+.training-section-heading h1{
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.training-section-image-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  
+  margin-top: 3.5rem;
+
+}
+
+.training-image-1{
+ 
+  grid-column: span 3 / span 3;
+  height: 220px;
+ 
+  background-image: url(image/exercise1.jpg);
+  background-size: cover;
+  background-position: center ;
+}
+
+.training-image-1 h3{
+  margin-top: 180px;
+  margin-left: 20px;
+}
+
+
+
+.training-image-2{
+ 
+  grid-column: span 6 / span 6;
+  height: 220px;
+ 
+  background-image: url(image/exercise2.png);
+  background-size: cover;
+  background-position: center ;
+}
+
+.training-image-2 h3{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.training-image-3{
+ 
+  grid-column: span 3 / span 3;
+  height: 220px;
+  background-image: url(image/exercise3.png);
+  background-size: cover;
+  background-position: center ;
+}
+
+.training-image-3 h4{
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+
+.training-image-4{
+ 
+  grid-column: span 5 / span 5;
+  height: 220px;
+  background-image: url(image/exercise4.png);
+  background-size: cover;
+  background-position: center ;
+}
+
+.training-image-4 h4{
+  margin-top: 30px;
+  margin-left: 270px;
+}
+
+.training-image-5{
+ 
+  grid-column: span 3 / span 3;
+  height: 220px;
+  background-image: url(image/exercise5.jpg);
+  background-size: cover;
+  background-position: center ;
+}
+
+.training-image-5 h4{
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+
+.training-image-6{
+ 
+  grid-column: span 4 / span 4;
+  height: 220px;
+  background-image: url(image/exercise6.jpg);
+  background-size: cover;
+  background-position: center ;
+}
+
+.training-image-6 h4{
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+
+
+
+/* Trainings and Excercises section style end here */
+
+/* BMI Section style start here */
+.bmi-section-heading{
+width: 50%;
+ margin: 50px auto;
+
+}
+
+.bmi-section-heading h1{
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.bmi-section-container{
+  width: 100%;
+  margin: 20px auto;
+ 
+  height: 400px;
+  display: flex;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.bmi-calculator-chart{
+ 
+  width: 50%;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+
+.bmi-calculator-chart h1{
+  margin-bottom: 2rem;
+}
+.bmi-calculator-chart th , td{
+  padding: 10px 15px;
+}
+
+.calculate-your-bmi{
+  width: 50%;
+  margin-top: 3rem;
+  margin-right: 4rem;
+}
+
+.calculate-your-bmi p{
+  margin: 15px 0px;
+
+}
+
+
+.input{
+  width: 200px;
+  padding: 8px 15px;
+  font-size: 1rem;
+margin-top: 1rem;
+margin-right: 1rem;
+border-radius: 10px;
+background:rgba(255, 255, 255, 0.7) ;
+
+}
+
+
+#sex{
+  width: 230px;
+  padding: 11px 15px;
+  background:rgba(255, 255, 255, 0.7) ;
+}
+select{
+  color: black;
+  border-radius: 10px;
+  background:rgba(255, 255, 255, 0.7) ;
+}
+
+option{
+  color: black;
+
+}
+#activity{
+  width: 490px;
+  margin-top: 1rem;
+  padding: 11px 15px;
+  border-radius: 10px;
+}
+
+/* BMI Section style end here */
+
+/* Meet our team section style start here */
+.meet-our-team-heading{
+  width: 50%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.meet-our-team-heading h1{
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.team-member-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 50px auto;
+  gap: 40px;
+ 
+}
+.member-1{
+  background-image: url(image/trainer1.png);
+background-size: cover;
+background-position: center;
+opacity: 0.9;
+  color: white;
+  border-radius: 15px;
+  width: 340px;
+}
+.name{
+  margin-top: 220px;
+  margin-left: 30px;
+}
+
+
+.member-2{
+  background-image: url(image/trainer2.png);
+background-size: cover;
+background-position: center;
+  color: white;
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 340px;
+}
+
+
+
+.member-3{
+  background-image: url(image/trainer3.png);
+background-size: cover;
+background-position: center;
+  color: white;
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 340px;
+}
+
+.member-4{
+  background-image: url(image/trainer4.png);
+background-size: cover;
+background-position: center;
+  color: white;
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 340px;
+}
+
+
+
+.member-5{
+  background-image: url(image/trainer5.png);
+background-size: cover;
+background-position: center;
+  color: white;
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 340px;
+}
+
+
+
+
+.member-6{
+  background-image: url(image/trainer6.png);
+background-size: cover;
+background-position: center;
+  color: white;
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 340px;
+}
+
+
+
+
+
+/* Meet our team section style end here */
+
+
+/* footer section style start here */
+footer{
+  background: rgba(255, 255, 255, 0.2);
+}
+.footer-container{
+  display: flex;
+  width: 100%;
+  
+  justify-content: space-between;
+  padding: 60px 100px;
+  box-sizing: border-box;
+}
+
+.part-1{
+  height: 250px;
+  width: 450px;
+  
+}
+
+.part-1 h1{
+  color: #E6533C;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.part-2{
+  height: 250px;
+  width: 250px;
+  
+}
+
+.part-2 h2{
+  margin-bottom: 15px;
+}
+.part-2 ul li{
+  list-style: none;
+}
+.part-2 ul li a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.5);
+  display: flex;
+  margin-bottom: 10px;
+}
+
+
+.part-3{
+  height: 250px;
+  width: 250px;
+ 
+}
+.part-3 h2{
+  margin-bottom: 15px;
+}
+.part-3 ul li{
+  list-style: none;
+}
+.part-3 ul li a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.5);
+  display: flex;
+  margin-bottom: 10px;
+}
+hr{
+  border: 2px solid white;
+  width: 80%;
+  margin: 20px auto;
+}
+.copyright{
+  text-align: center;
+  padding-bottom: 3rem;
+  color:rgba(255, 255, 255, 0.5);;
+}
+/* footer section style end here */
