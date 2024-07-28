@@ -60,6 +60,9 @@ nav ul li a{
   margin-right: 3rem;
   font-size: 1.1rem;
 }
+.hamberger-manu{
+  display: none;
+}
 
 #about{
   margin-right: 15px;
@@ -181,7 +184,6 @@ nav ul li a{
    display: flex;
    gap: 1.5rem;
    margin-top: 35px;
-   
  }
  
  .change-habit-card{ 
@@ -596,6 +598,9 @@ width: 50%;
   margin: 15px 0px;
 
 }
+.cm-kg{
+  display: flex;
+}
 
 
 .input{
@@ -794,6 +799,8 @@ footer{
   display: flex;
   margin-bottom: 10px;
 }
+
+
 hr{
   border: 2px solid white;
   width: 80%;
@@ -804,7 +811,310 @@ hr{
   padding-bottom: 3rem;
   color:rgba(255, 255, 255, 0.5);;
 }
+
+.medicum{
+  display: none;
+}
 /* footer section style end here */
+
+
+/* mobile phone responsive web page */
+@media screen and (max-width:576px) {
+nav ul{
+  display: none;
+}
+.banner-container{
+  flex-direction: column;
+}
+
+.banner-text-section {
+  width: 90%;
+
+}
+.text{
+ 
+  width: 80%;
+}
+
+.hamberger-manu{
+  display: block;
+}
+
+.hamberger-manu img{
+  width: 50px;
+  height: 50px
+};
+
+.banner-img-section {
+  width: 90%;
+ 
+  position: relative;
+}
+
+.change-habit-section-container{
+  
+  margin-top: 100%;
+ 
+}
+.change-habit-cards{
+  flex-direction: column;
+
+ 
+}
+.change-habit-card {
+  
+  margin: 0px auto;
+}
+.run-an-extra-mile-container{
+  flex-direction: column;
+  padding: 30px 20px;
+  margin: 50px 20px;
+}
+.run-an-extra-mile-text{
+  width: 90%;
+}
+
+.join-now{
+  
+  margin: 0px auto;
+  display: flex;
+ 
+}
+.run-an-extra-mile-image{
+  width: 70%;
+  margin-left: 20px;
+}
+.run-an-extra-mile-image img{
+  width: 400px;
+}
+.training-section-heading{
+  width: 90%;
+}
+.training-section-image-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.training-image-1{
+  grid-column: span 6/ span 6;
+}
+.training-image-3{
+  display: none;
+}
+.training-image-4{
+  grid-column: span 5/ span 5;
+}
+.training-image-5{
+  grid-column: span 7/ span 7;
+}
+.training-image-6{
+  display: none;
+}
+.equipment-cards-container {
+  display: flex;
+  flex-direction: column;
+}
+.equipment-card{
+  margin: 0px auto;
+}
+.bmi-section-heading {
+  width: 80%;
+}
+.bmi-section-container{
+  flex-direction: column;
+}
+.bmi-calculator-chart {
+  width: 90%;
+  margin-left: 4rem;
+}
+.calculate-your-bmi {
+  width: 90%;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.cm-kg{
+  display: flex;
+  width: 50%;
+
+}
+.meet-our-team-heading{
+  margin-top: 100%;
+}
+
+.meet-our-team-heading{
+  width: 90%;
+}
+.team-member-container{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.member-2 , .member-3, .member-5, .member-6{
+  margin: 20px auto;
+}
+.member-1{
+  display: none;
+}
+
+.member-4{
+  display: none;
+}
+
+.footer-container{
+  flex-direction: column;
+  padding: 40px 60px;
+}
+
+
+
+}
+
+
+
+/* responsive medium-device web page */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .banner-container{
+    flex-direction: column;
+  }
+  .banner-text-section {
+    width: 85%;}
+    .banner-img-section {
+      width: 90%;
+      margin-left: 70px;
+    }
+    .change-habit-section-heading{
+      
+      width: 80%;
+      margin: 20px auto;
+      
+      margin-top: 100%;
+    }
+    .change-habit-cards{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .run-an-extra-mile-image img {
+      height: 250px;
+      width: 250px;
+     border: 2px solid red;
+      margin-left: 3.5rem;
+  }
+  .run-an-extra-mile-text {
+    width: 35%;
+  }
+  .run-an-extra-mile-text h1{
+    font-size: 30px;
+  }
+
+  .training-section-heading {
+    width: 90%;
+}
+
+.training-image-1, .training-image-2, .training-image-3 {
+  grid-column: span 4 / span 4;
+}
+
+.training-image-4{
+  grid-column: span 6/ span 6;
+}
+.color-on-img-4 h4 {
+  margin-top: 170px;
+  margin-left: 0px;
+  width: 100%;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.training-image-5{
+  grid-column: span 3 / span 3;
+}
+
+.color-on-img-5 h4 {
+  margin-top: 170px;
+  margin-left: 0px;
+  width: 100%;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.training-image-6 {
+  grid-column: span 3 / span 3;
+}
+.color-on-img-6 h4 {
+  margin-top: 170px;
+  margin-left: 0px;
+  width: 100%;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.bmi-section-heading {
+  width: 80%;
+}
+.bmi-section-container{
+  flex-direction: column;
+}
+.bmi-calculator-chart {
+  width: 90%;
+  margin-left: 4rem;
+}
+.calculate-your-bmi {
+  width: 90%;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.cm-kg{
+  display: flex;
+  width: 50%;
+
+}
+
+.meet-our-team-heading{
+  margin-top: 100%;
+}
+
+.calculate{
+  display: block;
+}
+
+.equipment-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.last-equipment{
+  display: none;
+}
+.equipment-card {
+  width: 240px;
+}
+
+.meet-our-team-heading {
+  width: 90%;}
+  .member-1, .member-2, .member-3, .member-4, .member-5, .member-6{
+    width: 180px;
+  }
+
+  .footer-container{
+    flex-direction: column;
+  }
+ 
+
+  .medicum{
+    display: block;
+  }
+.large-device{
+  display: none;
+}
+ .last-part{
+  display: flex;
+ }
+   
+
+    
+  }
+
+
 
 
 
